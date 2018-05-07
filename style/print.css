@@ -1,0 +1,38 @@
+*{font-family: DIN-Pro;}
+#Chek h1,h2,h3{
+text-align: center;
+/*font-size: 75%;*/
+padding: 0px;
+margin: 0px;
+color:black;
+}
+p{margin: 0;font-size: 12px;}
+#Chek{
+/*font-size: 75%;*/
+  /*  padding: 0px;
+    margin: 0px;
+    height: 29,7cm;
+    width: 13cm;*/
+}
+table.catalog {
+    border-collapse: collapse;
+    
+}
+.catalog{
+width: 18cm;
+font-size: 14px;
+}
+.catalog td{
+    border:black solid 1px;
+    text-align: center;
+}
+.catalog th{
+    border:black solid 1px;
+    text-align: center;
+}
+.catalog td:nth-child(2){
+    text-align: left;
+}
+catalog td:nth-child(4){
+    text-align: center;
+}

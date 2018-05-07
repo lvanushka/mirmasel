@@ -1,0 +1,42 @@
+@font-face {
+    font-family: DIN-Pro; /* Имя шрифта */
+    src: url(8659.ttf); /* Путь к файлу со шрифтом */
+   }
+*{font-family: DIN-Pro;}
+#printList th{
+    
+    color:white;
+    background: black;
+}
+    
+#printList td{
+border:black solid 1px;
+text-align: center;
+}
+#printList td:nth-child(3){
+    text-align: left;
+}
+.out{
+    background: lightgray;
+    
+}
+
+#printCRO{
+     border-collapse: collapse;
+    width: 100%;
+}
+
+#printCRO th{
+    color:white;
+    background: black;
+}
+#printCRO tr:nth-child(odd){
+    background: lightgray;
+}
+#printCRO td{
+border:black solid 1px;
+text-align: center;
+}
+#printCRO td:nth-child(2){
+    text-align: left;
+}

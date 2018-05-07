@@ -1,0 +1,36 @@
+#ap {
+    clear: both;
+    //width: 100%;
+    //box-shadow: greenyellow 10px 10px 50px 10px;
+   // border:solid 2px greenyellow;
+}
+#ap table{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#ap td {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    }
+#ap1{
+    text-align: center;
+    width: 50%;
+    min-width: 230px;
+    display: inline-table;
+    float:left;
+    box-shadow: black 10px 10px 50px 10px;
+    border-radius: 15px;
+//    border:solid 2px red;
+}
+#ap2{
+    text-align: center;
+    width: 50%;
+    min-width: 230px;
+    display: inline-table;
+    box-shadow: black 10px 10px 50px 10px;
+    border-radius: 15px;
+    //border:solid 2px red;
+}

@@ -1,0 +1,19 @@
+@import "top.css";
+@import "myStyle.css";
+@import "userRegForm.css";
+@import "Nav.css";
+
+ @font-face {
+    font-family: DIN-Pro; /* Имя шрифта */
+    src: url(8659.ttf); /* Путь к файлу со шрифтом */
+   }
+#MainContainer {
+    width:95%;
+    margin: auto;
+    min-width: 240px;
+}
+body {
+ background: #ccc url("../img/moz8.jpg") fixed;
+ }
+        a:link {color: yellow;}
+        a:visited {color: white;}

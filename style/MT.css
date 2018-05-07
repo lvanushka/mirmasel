@@ -1,0 +1,72 @@
+#MT{
+     text-align: center;
+     text-shadow: 2px 3px 3px green;
+    /*
+    text-align: center;
+    position: static;
+    border-radius:30px;
+    box-shadow: black 10px 10px 60px 20px;
+    margin-top: 20px;
+    width: 100%;
+    height:25px ;
+    */
+    border:solid yellow 3px;
+    clear:both;
+}
+#MT td {
+    
+    padding:0;
+    width: 25%;
+    text-align: center;
+    }
+    #MT table{
+        width: 100%;
+    }
+#firstMT{
+    box-shadow: black 2px 2px 25px 5px;
+      background: rgba(255,0,0,0.3);
+    border-radius: 15px;
+    float: left;
+    width:50%;
+    min-width:230px;
+    display: inline-table;
+    margin-bottom: 10px;
+  }
+  #secondMT{
+    background: rgba(255,0,0,0.3);
+    border-radius: 15px;
+    box-shadow: black 2px 2px 25px 5px;
+    min-width:230px;
+    width: 50%;
+    display: inline-table;
+  }
+  
+#MT a{
+    display:  block;
+    font-size: 120%;
+   }
+   #MT a:hover{
+       background: rgba(255,200,0,0.4);
+       border-radius: 10px;
+       letter-spacing: 2px;
+   }
+         #Search {
+ 
+             text-align: center;
+                clear: both;
+         }    
+         #Search input {
+             background: #ccc;
+             color:black;
+             text-align: center;
+             letter-spacing: 1px;
+         }
+         #Search  p {
+            color:white;
+            text-shadow: 5px,5px,5px;
+            letter-spacing: 1px;
+            margin: 0;
+            padding: 0;
+            background: rgba(255,0,0,0.2);
+            border-radius: 5px;
+         }

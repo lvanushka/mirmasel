@@ -1,0 +1,35 @@
+#Chek h1,h2,h3{
+font-size: 75%;
+padding: 0px;
+margin: 0px;
+color:black;
+}
+#Chek{
+    font-size: 75%;
+    padding: 0px;
+    margin: 0px;
+    height: 8cm;
+    width: 13cm;
+}
+table.catalog {
+    border-collapse: collapse;
+    
+}
+.catalog{
+width: 100%;
+font-size: 12px;
+}
+.catalog td{
+    border:black solid 1px;
+    text-align: center;
+}
+.catalog th{
+    border:black solid 1px;
+    text-align: center;
+}
+.catalog td:nth-child(2){
+    text-align: left;
+}
+catalog td:nth-child(4){
+    text-align: center;
+}
